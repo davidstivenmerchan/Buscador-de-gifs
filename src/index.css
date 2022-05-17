@@ -1,13 +1,77 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.card{
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: center;
+    background: black;
+    width: 300px;
+}
+.card p{
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    color: wheat;
+}
+.card img{
+    max-height: 170px;
+}
+.card-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+form{
+    margin: 20px 40px;
+}
+form input[type='text']{
+    width: 80%;
+    outline: none;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+form input[type='submit']{
+    width: 10%;
+    margin-left:10px;
+    height: 26px;
+    border: none;
+    background-color: rgb(93, 93, 240);
+    color: white;
+    transition: .5s;
+}
+form input[type='submit']:hover{
+    background: black;
+    cursor: pointer;
+}
+h2{
+    margin: 0px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: 30px;
+}
+.nav{
+    background-image: url(https://www.kilotela.com/wp-content/uploads/2020/11/buy-fabric-by-the-meter-cotton-printed-dc-comics-heroines-110-width.jpg);
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+
+}
+ol{
+    padding-top: 10px;
+    background: rgba(128, 128, 128, 0.185)
+
 }
